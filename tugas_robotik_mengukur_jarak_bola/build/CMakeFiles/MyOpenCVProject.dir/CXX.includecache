@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rasya/Documents/ROBOTIK/Tugas_Bola/main.cpp
+iostream
+-
+vector
+-
+opencv4/opencv2/opencv.hpp
+-
+opencv4/opencv2/videoio.hpp
+-
+

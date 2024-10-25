@@ -1,0 +1,3 @@
+/home/rasya/Documents/ROBOTIK/Tugas_Bola/build/CMakeFiles/rebuild_cache.dir
+/home/rasya/Documents/ROBOTIK/Tugas_Bola/build/CMakeFiles/edit_cache.dir
+/home/rasya/Documents/ROBOTIK/Tugas_Bola/build/CMakeFiles/MyOpenCVProject.dir
