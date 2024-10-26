@@ -1,0 +1,3 @@
+/home/rasya/Documents/ROBOTIK/OPENCV/tugas_kordinat/build/CMakeFiles/rebuild_cache.dir
+/home/rasya/Documents/ROBOTIK/OPENCV/tugas_kordinat/build/CMakeFiles/edit_cache.dir
+/home/rasya/Documents/ROBOTIK/OPENCV/tugas_kordinat/build/CMakeFiles/MyOpenCVProject.dir
