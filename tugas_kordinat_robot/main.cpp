@@ -6,8 +6,6 @@
 using namespace cv;
 using namespace std;
 
-void onTrackbarChange(int, void*) {}
-
 int main() {
     VideoCapture cap("/home/rasya/Documents/ROBOTIK/OPENCV/tugas_kordinat/build/video_asli.avi");
     if (!cap.isOpened()) {
@@ -18,13 +16,19 @@ int main() {
     int h_min = 0, s_min = 150, v_min = 150;
     int h_max = 15, s_max = 210, v_max = 255;
 
-    namedWindow("Sliders");
-    createTrackbar("Hmin", "Sliders", &h_min, 180, onTrackbarChange);
-    createTrackbar("Smin", "Sliders", &s_min, 255, onTrackbarChange);
-    createTrackbar("Vmin", "Sliders", &v_min, 255, onTrackbarChange);
-    createTrackbar("Hmax", "Sliders", &h_max, 180, onTrackbarChange);
-    createTrackbar("Smax", "Sliders", &s_max, 255, onTrackbarChange);
-    createTrackbar("Vmax", "Sliders", &v_max, 255, onTrackbarChange);
+    // namedWindow("Trackbar");
+    // createTrackbar("Hmin", "Trackbar", &h_min, 255);
+    // setTrackbarPos("Hmin", "Trackbar", 75);
+    // createTrackbar("Smin", "Trackbar", &s_min, 255);
+    // setTrackbarPos("Smin", "Trackbar", 75);
+    // createTrackbar("Vmin", "Trackbar", &v_min, 255);
+    // setTrackbarPos("Vmin", "Trackbar", 75);
+    // createTrackbar("Hmax", "Trackbar", &h_max, 255);
+    // setTrackbarPos("Hmax", "Trackbar", 75);
+    // createTrackbar("Smax", "Trackbar", &s_max, 255);
+    // setTrackbarPos("Smax", "Trackbar", 75);
+    // createTrackbar("Vmax", "Trackbar", &v_max, 255);
+    // setTrackbarPos("Vmax", "Trackbar", 75);
 
     Mat frame, hsv_frame, mask;
     Point2f initial_pos(640, 360);
