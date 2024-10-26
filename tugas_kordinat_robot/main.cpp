@@ -73,7 +73,6 @@ int main() {
                 prev_robot_position = real_world_position;
             }
 
-            // Update robot position based on the ball's position
             // robot_position.x = real_world_position.x; // Update X position
             // robot_position.y = real_world_position.y; // Update Y position
 
