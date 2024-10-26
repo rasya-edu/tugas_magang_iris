@@ -8,7 +8,7 @@ using namespace std;
 
 int main() {
 
-    VideoCapture cap("/dev/v4l/by-id/usb-Azurewave_USB2.0_VGA_UVC_WebCam-video-index0");
+    VideoCapture cap("/home/rasya/Documents/ROBOTIK/OPENCV/tugas_kordinat/build/video_asli.avi");
     if (!cap.isOpened()) {
         cerr << "No Camera";
         return -1;
